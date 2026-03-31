@@ -64,6 +64,7 @@ public class Welcome {
 				}
 			}
 		}
+		scanner.close();
 	}
 
 }
