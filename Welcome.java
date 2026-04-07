@@ -2,7 +2,7 @@ package Bookmarket;
 import java.util.Scanner;
 public class Welcome {
 	public static void menuCartItemList() { // 장바구니 상품 목록보기
-		System.out.println("2.장바구니 상품 목록 보기 :");
+		System.out.println("2. 장바구니 상품 목록 보기 :");
 	}
 	public static void menuCartClear() { // 장바구니 비우기
 		System.out.println("3. 장바구니 비우기");
@@ -64,7 +64,7 @@ public class Welcome {
 					break;
 					
 				case 2:
-					//System.out.println("2.장바구니 상품 목록 보기 :");
+					//System.out.println("2. 장바구니 상품 목록 보기 :");
 					menuCartItemList();
 					break;
 				
